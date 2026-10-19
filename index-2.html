@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#121019">
+<title>सुख़न-ए-रात | मेरी शायरी</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#100f17;--panel:#1b1924;--panel2:#211c2b;--text:#f5eff4;--muted:#c1b4c4;--rose:#e6abc3;--gold:#d8bd8a;--line:#453449;--shadow:0 18px 45px #0005}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% -15%,#493047 0%,#1b1724 36%,var(--bg) 72%);color:var(--text);font-family:"Noto Serif Devanagari",serif;line-height:1.9}
+a{color:inherit}
+.hero{padding:62px 18px 38px;text-align:center;border-bottom:1px solid #ffffff12}
+.eyebrow{font:12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-size:clamp(34px,7vw,62px);line-height:1.25;margin:13px 0;color:var(--rose);font-weight:600}
+.urdu-title{font-family:"Noto Nastaliq Urdu",serif;font-size:clamp(24px,5vw,38px);color:#f2d7e3;direction:rtl;line-height:2}
+.hero p{max-width:660px;margin:14px auto 0;color:var(--muted);font-size:16px}
+.wrap{width:min(900px,calc(100% - 28px));margin:28px auto 60px}
+.about,.poem{border:1px solid var(--line);background:linear-gradient(145deg,#ffffff09,#ffffff02);border-radius:20px;box-shadow:var(--shadow)}
+.about{padding:24px clamp(18px,4vw,34px);margin-bottom:24px}
+.section-kicker{font:11px Arial,sans-serif;letter-spacing:2.5px;color:var(--gold);text-transform:uppercase}
+h2{margin:5px 0 12px;font-size:25px;line-height:1.5}
+
+.about p{margin:8px 0;color:#e4dbe5}
+.journey{background:linear-gradient(145deg,#211c2b,#17151f)}
+.journey h3{font-size:18px;color:var(--gold);margin:22px 0 6px}
+.skill-list{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px}
+.skill-list span{border:1px solid #6b4b63;background:#ffffff08;border-radius:999px;padding:5px 11px;color:#f3dbe8;font:13px Arial,sans-serif}
+.dream-list{padding-left:22px;color:#e4dbe5}
+.dream-list li{padding:3px 0}
+.motto{margin-top:18px!important;text-align:center;color:var(--gold)!important;font-size:18px}
+
+.about .urdu{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;text-align:right;font-size:18px;line-height:2.3;color:#f2dce8}
+.notice{font-size:13px!important;color:var(--muted)!important;border-top:1px solid var(--line);padding-top:12px;margin-top:14px!important}
+.poem{padding:25px clamp(18px,4.5vw,36px);margin:20px 0;overflow:hidden}
+.poem-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.num{font:11px Arial,sans-serif;letter-spacing:2px;color:var(--gold)}
+.tag{border:1px solid #78586e;border-radius:999px;padding:3px 10px;font:11px Arial,sans-serif;color:var(--rose)}
+.poem h2{font-size:clamp(21px,4vw,29px);color:var(--rose);margin:7px 0 2px}
+.poem .urdu-title{font-size:clamp(20px,4.5vw,29px);text-align:right;margin:0 0 18px}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.column{background:#ffffff04;border-radius:14px;padding:16px 18px;border:1px solid #ffffff0c}
+.column h3{font:12px Arial,sans-serif;text-transform:uppercase;letter-spacing:1.7px;color:var(--gold);margin:0 0 12px}
+.hindi-lines{white-space:pre-line;font-size:17px;line-height:2.05}
+.urdu-lines{white-space:pre-line;font-family:"Noto Nastaliq Urdu",serif;direction:rtl;text-align:right;font-size:18px;line-height:2.5}
+.meaning{border-left:2px solid var(--rose);padding:12px 15px;margin-top:18px;background:#e6abc30b;border-radius:0 10px 10px 0;color:#e9dfe9}
+.meaning strong{display:block;font:12px Arial,sans-serif;letter-spacing:1.5px;color:var(--rose);margin-bottom:5px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+button{border:1px solid #78586e;background:#332637;color:var(--text);padding:9px 14px;border-radius:10px;font:13px Arial,sans-serif;cursor:pointer}
+button:hover{background:#493147}
+footer{text-align:center;color:var(--muted);padding:30px 15px;border-top:1px solid #ffffff12;font-size:13px}\n.watermark{position:fixed;right:12px;bottom:12px;z-index:10;pointer-events:none;opacity:.32;color:var(--rose);font:600 11px Arial,sans-serif;letter-spacing:1.5px;text-shadow:0 1px 8px #000;transform:rotate(-4deg);border:1px solid #e6abc344;border-radius:6px;padding:5px 8px;background:#100f17aa}\n.insta{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f5dce8;border:1px solid #78586e;background:#332637;padding:9px 14px;border-radius:999px;margin-top:16px;font:13px Arial,sans-serif}\n.insta:hover{background:#493147}
+footer .signature{color:var(--rose);font-size:18px;margin-bottom:8px}
+@media(max-width:640px){.columns{grid-template-columns:1fr}.hero{padding-top:44px}.poem{padding:20px 15px}.column{padding:14px}}
+@media print{body{background:#fff;color:#17131a}.hero,.about,.poem,.column{background:#fff;color:#17131a;box-shadow:none;border-color:#bbb}.hero p,.about p,.notice,footer,.meaning{color:#333}.poem h2,.hero h1,.urdu-title{color:#572b49}.actions{display:none}}
+
+.legal-section{margin-bottom:24px}
+.legal-section h3{font-size:17px;color:var(--gold);margin:18px 0 4px}
+.legal-section .notice{font-size:13px;color:var(--muted);border-left:2px solid var(--gold);padding-left:12px;margin-top:16px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="eyebrow">A Personal Poetry Collection</div>
+  <h1>मेरी शायरी</h1>
+  <div class="urdu-title" lang="ur">میری شاعری</div>
+  <p>दिल से लिखे अल्फ़ाज़ — हिंदी और उर्दू में, अंग्रेज़ी अर्थ के साथ।</p>
+  <p class="urdu-title" lang="ur" style="font-size:19px">دل سے لکھے ہوئے الفاظ</p>\n  <div style="margin-top:18px;color:var(--gold);font-size:18px;font-weight:600">Pen Name: Imran Yari</div>\n  <div class="urdu-title" lang="ur" style="font-size:21px">عمران یاری</div>\n  <a class="insta" href="https://www.instagram.com/i_imran_533?xtok=MTFoYWo1cHA5Z21vdQ==" target="_blank" rel="noopener noreferrer">Instagram · @i_imran_533 ↗</a>
+</header>
+
+<main class="wrap">
+  <section class="about">
+    <div class="section-kicker">About the Poet · شاعر کا تعارف</div>
+    <h2>मेरे बारे में</h2>
+    <p>मैं इमरान यारी हूँ—एक शायर, विद्यार्थी और लगातार सीखने वाला इंसान। मैं अपने एहसासों को हिंदी और उर्दू के अल्फ़ाज़ में ढालता हूँ। मेरी शायरी में इश्क़, जुदाई, ख़ामोशी और उम्मीद की झलक मिलती है। मेरा सपना है कि मेरी मौलिक शायरी दुनिया भर के पाठकों तक पहुँचे और मेरी अपनी अलग पहचान बने।</p>
+    <p class="urdu" lang="ur">میں عمران یاری ہوں—ایک شاعر، طالب علم اور مسلسل سیکھنے والا انسان۔ میں اپنے احساسات کو ہندی اور اردو کے الفاظ میں ڈھالتا ہوں۔ میری شاعری میں عشق، جدائی، خاموشی اور امید کی جھلک ملتی ہے۔ میرا خواب ہے کہ میری اصل شاعری دنیا بھر کے قارئین تک پہنچے اور میری اپنی الگ پہچان بنے۔</p>
+  </section>
+
+  <section class="about journey">
+    <div class="section-kicker">My Journey · Skills · Dreams</div>
+    <h2>मेरे लक्ष्य, हुनर और सपने 🚀</h2>
+    <p>शायरी मेरी पहचान का एक हिस्सा है, लेकिन मेरे सपने इससे भी बड़े हैं। मैं पढ़ाई के साथ तकनीक, बिज़नेस और फाइनेंस सीख रहा हूँ—ताकि एक दिन अपने दम पर कुछ ऐसा बना सकूँ जो लोगों के काम आए।</p>
+
+    <h3>🎯 मेरा लक्ष्य</h3>
+    <p>मैं अभी UP Board की कक्षा 12वीं में PCM की पढ़ाई कर रहा हूँ। आगे B.Tech करना, अपनी तकनीकी समझ को मज़बूत बनाना और भविष्य में अपना startup शुरू करना मेरे बड़े लक्ष्यों में शामिल है। मैं आर्थिक रूप से आत्मनिर्भर बनना चाहता हूँ और लंबी अवधि में ₹5 करोड़ की संपत्ति बनाने का लक्ष्य रखता हूँ—मेहनत, सीखने और समझदारी से निवेश करने के ज़रिए।</p>
+
+    <h3>💻 मेरी Skills और सीखने का सफ़र</h3>
+    <div class="skill-list">
+      <span>Python</span><span>HTML</span><span>CSS</span><span>Java</span>
+      <span>Web Development</span><span>AI Projects</span><span>Telegram Bots</span>
+      <span>Google Ads</span><span>Stock Market Basics</span><span>Hindi–Urdu Writing</span>
+    </div>
+    <p>मैंने वेब प्रोजेक्ट, एक Telegram bot और एक छोटा AI app जैसे प्रोजेक्ट्स पर काम किया है। Google Ads और stock market की शुरुआती पढ़ाई भी की है। ये ऐसे क्षेत्र हैं जिनमें मैं लगातार अभ्यास करके अपनी skills बेहतर बनाना चाहता हूँ।</p>
+
+    <h3>🌱 मेरे सपने</h3>
+    <ul class="dream-list">
+      <li>एक अच्छा engineer और problem-solver बनना।</li>
+      <li>अपना startup बनाना और उपयोगी technology तैयार करना।</li>
+      <li>Finance और stock market को ज़िम्मेदारी से समझना तथा financial independence की ओर बढ़ना।</li>
+      <li>अपनी शायरी को दुनिया भर के पाठकों तक पहुँचाना और “Imran Yari” नाम से पहचान बनाना।</li>
+      <li>सीखते रहना, अपनी skills बढ़ाना और अपनी मेहनत से परिवार को गर्व महसूस कराना।</li>
+    </ul>
+
+    <p class="urdu" lang="ur">میرا یقین ہے کہ خواب صرف دیکھنے کے لیے نہیں، ان کے لیے مسلسل محنت بھی ضروری ہے۔ میں تعلیم، ٹیکنالوجی، کاروبار، مالی سمجھ بوجھ اور شاعری—ہر میدان میں آگے بڑھنا چاہتا ہوں۔</p>
+    <p class="motto">“بڑا خواب دیکھو، روز کچھ نیا سیکھو، اور ہار ماننے سے انکار کرو۔”</p>
+  </section>
+
+  <section class="poem" id="poem1">
+    <div class="poem-head"><span class="num">POEM 01</span><span class="tag">रोमांटिक · Romantic</span></div>
+    <h2>खुले गेसुओं में इश्क़</h2>
+    <div class="urdu-title" lang="ur">کھلے گیسوؤں میں عشق</div>
+    <div class="columns">
+      <div class="column"><h3>हिंदी</h3><div class="hindi-lines">इन खुले गेसुओं में हमें यूँ उलझाया न कीजिए,
+अपनी क़ातिल अदाओं से हमें यूँ सताया न कीजिए।
+
+डर है, कहीं इश्क़ में गुस्ताख़ी न कर बैठें हम,
+अपनी नज़रों से हमें इतना भी बहकाया न कीजिए।
+
+आप रूठ जाएँ तो दिल को क़रार कैसे आए,
+यूँ ख़ामोश रहकर हमें तड़पाया न कीजिए।
+
+आपकी मुस्कुराहट ही तो जीने की वजह है हमारी,
+यूँ हमसे रूठकर हमें बेगाना बनाया न कीजिए। ❤️</div></div>
+      <div class="column" lang="ur"><h3>اردو</h3><div class="urdu-lines">ان کھلے گیسوؤں میں ہمیں یوں الجھایا نہ کیجیے،
+اپنی قاتل اداؤں سے ہمیں یوں ستایا نہ کیجیے۔
+
+ڈر ہے، کہیں عشق میں گستاخی نہ کر بیٹھیں ہم،
+اپنی نظروں سے ہمیں اتنا بھی بہکایا نہ کیجیے۔
+
+آپ روٹھ جائیں تو دل کو قرار کیسے آئے،
+یوں خاموش رہ کر ہمیں تڑپایا نہ کیجیے۔
+
+آپ کی مسکراہٹ ہی تو جینے کی وجہ ہے ہماری،
+یوں ہم سے روٹھ کر ہمیں بیگانہ بنایا نہ کیجیے۔ ❤️</div></div>
+    </div>
+    <div class="meaning"><strong>ENGLISH MEANING</strong>You ask your beloved not to ensnare or torment you with their loose hair, captivating ways, and glances. You fear becoming too bold in love. Their silence and anger leave your heart restless, because their smile is your reason to live.</div>
+    <div class="actions"><button onclick="copyPoem('poem1')">Copy poem</button></div>
+  </section>
+
+  <section class="poem" id="poem2">
+    <div class="poem-head"><span class="num">POEM 02</span><span class="tag">दर्द · Pain</span></div>
+    <h2>मर के भी जी आया मैं</h2>
+    <div class="urdu-title" lang="ur">مر کے بھی جی آیا میں</div>
+    <div class="columns">
+      <div class="column"><h3>हिंदी</h3><div class="hindi-lines">ये कौन-सा ज़हर पी आया मैं,
+दर्द-ए-दिल को ज़ब्त आया मैं।
+और कोई रास्ता न था, क्या करता,
+मर के भी जी आया मैं। 🖤🥀</div></div>
+      <div class="column" lang="ur"><h3>اردو</h3><div class="urdu-lines">یہ کون سا زہر پی آیا میں،
+دردِ دل کو ضبط آیا میں۔
+اور کوئی راستہ نہ تھا، کیا کرتا،
+مر کے بھی جی آیا میں۔ 🖤🥀</div></div>
+    </div>
+    <div class="meaning"><strong>ENGLISH MEANING</strong>“What kind of poison have I swallowed?” the speaker asks, describing a heart learning to suppress its pain. With no other way forward, they feel as if they died inside—yet somehow continued living.</div>
+    <div class="actions"><button onclick="copyPoem('poem2')">Copy poem</button></div>
+  </section>
+
+  <section class="poem" id="poem3">
+    <div class="poem-head"><span class="num">POEM 03</span><span class="tag">इंतज़ार · Longing</span></div>
+    <h2>तेरी एक झलक की आस</h2>
+    <div class="urdu-title" lang="ur">تیری ایک جھلک کی آس</div>
+    <div class="columns">
+      <div class="column"><h3>हिंदी</h3><div class="hindi-lines">यहाँ ग़म है, नफ़रत है, और दिल में परेशानी है,
+तेरी एक झलक की आस है, बस इतनी-सी ज़िंदगानी है।
+तेरे दीदार के बिना ये ज़िंदगी बेकार है,
+तू ही बता, तेरे बिना अब किस बात का इंतज़ार है।
+क्यों इतना ख़ामोश रहती हो, कुछ तो जवाब दो,</div></div>
+      <div class="column" lang="ur"><h3>اردو</h3><div class="urdu-lines">یہاں غم ہے، نفرت ہے، اور دل میں پریشانی ہے،
+تیری ایک جھلک کی آس ہے، بس اتنی سی زندگانی ہے۔
+تیرے دیدار کے بغیر یہ زندگی بیکار ہے،
+تو ہی بتا، تیرے بغیر اب کس بات کا انتظار ہے۔
+کیوں اتنی خاموش رہتی ہو، کچھ تو جواب دو،</div></div>
+    </div>
+    <div class="meaning"><strong>ENGLISH MEANING</strong>The speaker lives amid sorrow, hatred, and unrest, holding on to just one hope: a glimpse of the beloved. Life feels empty without seeing them, and their silence leaves the speaker pleading for an answer. The poem ends on an unanswered question, as provided by the poet.</div>
+    <div class="actions"><button onclick="copyPoem('poem3')">Copy poem</button></div>
+  </section>
+
+  <section class="poem" id="poem4">
+    <div class="poem-head"><span class="num">POEM 04</span><span class="tag">जुदाई · Separation</span></div>
+    <h2>तेरे बिन दिल कहीं लग न पाएगा</h2>
+    <div class="urdu-title" lang="ur">تیرے بن دل کہیں لگ نہ پائے گا</div>
+    <div class="columns">
+      <div class="column"><h3>हिंदी</h3><div class="hindi-lines">अगर तू मुझसे दूर चला जाएगा,
+मुझ पर क़हर-सा टूट जाएगा।
+
+बहुत याद आएगी तेरी मुझे,
+तेरे बिन दिल कहीं लग न पाएगा।
+
+तड़पता रहूँगा तेरी यादों में,
+मगर तुझ तक पैग़ाम न जा पाएगा। 💔</div></div>
+      <div class="column" lang="ur"><h3>اردو</h3><div class="urdu-lines">اگر تو مجھ سے دور چلا جائے گا،
+مجھ پر قہر سا ٹوٹ جائے گا۔
+
+بہت یاد آئے گی تیری مجھے،
+تیرے بن دل کہیں لگ نہ پائے گا۔
+
+تڑپتا رہوں گا تیری یادوں میں،
+مگر تجھ تک پیغام نہ جا پائے گا۔ 💔</div></div>
+    </div>
+    <div class="meaning"><strong>ENGLISH MEANING</strong>If you leave me, it will feel as though disaster has fallen upon me. I will miss you deeply and find no peace without you. I will keep aching in your memories, yet I may never be able to send my message to you.</div>
+    <div class="actions"><button onclick="copyPoem('poem4')">Copy poem</button></div>
+  </section>
+
+  <section class="poem" id="poem5">
+    <div class="poem-head"><span class="num">POEM 05</span><span class="tag">इश्क़ · Heartbreak</span></div>
+    <h2>वो मिसाल बनकर आई थी</h2>
+    <div class="urdu-title" lang="ur">وہ مثال بن کر آئی تھی</div>
+    <div class="columns">
+      <div class="column"><h3>हिंदी</h3><div class="hindi-lines">हाँ, मैं उसे जानता हूँ,
+शक है कि वो मुझे जानती भी है।
+उसके हुस्न की क्या मिसाल दूँ,
+हाँ, कोई मिसाल ही नहीं है।
+वो मिसाल बनकर आई थी मेरी ज़िंदगी में,
+अब मेरी ज़िंदगी ही कहाँ रही।
+हाँ, मैं मर गया हूँ उसके इश्क़ में,
+अब उसके दीदार की भी हसरत कहाँ रही। 💔🥀</div></div>
+      <div class="column" lang="ur"><h3>اردو</h3><div class="urdu-lines">ہاں، میں اسے جانتا ہوں،
+شک ہے کہ وہ مجھے جانتی بھی ہے۔
+اس کے حسن کی کیا مثال دوں،
+ہاں، کوئی مثال ہی نہیں ہے۔
+وہ مثال بن کر آئی تھی میری زندگی میں،
+اب میری زندگی ہی کہاں رہی۔
+ہاں، میں مر گیا ہوں اس کے عشق میں،
+اب اس کے دیدار کی بھی حسرت کہاں رہی۔ 💔🥀</div></div>
+    </div>
+    <div class="meaning"><strong>ENGLISH MEANING</strong>I know her, though I doubt she even knows me. Her beauty seems beyond comparison. She entered my life as someone extraordinary, but now I feel as if my life itself has disappeared. I am consumed by love, and even the desire to see her has faded.</div>
+    <div class="actions"><button onclick="copyPoem('poem5')">Copy poem</button></div>
+  </section>
+</main>
+
+  <section class="about legal-section" id="privacy-policy">
+    <div class="section-kicker">Privacy Policy · رازداری کی پالیسی</div>
+    <h2>Privacy Policy</h2>
+    <p>यह वेबसाइट “Imran Yari” की हिंदी–उर्दू शायरी, लेखक परिचय और रचनात्मक कार्यों को प्रस्तुत करने के लिए बनाई गई है।</p>
+    <h3>जानकारी और गोपनीयता</h3>
+    <p>यह वेबसाइट स्वयं कोई पासवर्ड, भुगतान जानकारी या संवेदनशील निजी जानकारी माँगने के लिए नहीं बनाई गई है। कृपया किसी भी सार्वजनिक पेज या सोशल मीडिया पर अपनी निजी जानकारी साझा करने से बचें।</p>
+    <h3>Cookies और बाहरी सेवाएँ</h3>
+    <p>वेबसाइट पर Google Fonts जैसी बाहरी सेवाएँ उपयोग हो सकती हैं, जिनके लोड होने पर आपका ब्राउज़र उन सेवाओं से कनेक्ट कर सकता है। Instagram का लिंक आपको Instagram की वेबसाइट या ऐप पर ले जाता है। उन सेवाओं की गोपनीयता नीतियाँ और डेटा प्रथाएँ उनके अपने नियंत्रण में हैं।</p>
+    <h3>शायरी और कॉपी बटन</h3>
+    <p>कॉपी बटन आपके डिवाइस के ब्राउज़र की उपलब्ध सुविधाओं से टेक्स्ट कॉपी करने का प्रयास करता है। वेबसाइट पर कोई अकाउंट या लॉगिन सुविधा नहीं है।</p>
+    <h3>नीति में बदलाव</h3>
+    <p>वेबसाइट में बदलाव होने पर यह Privacy Policy भी अपडेट की जा सकती है। इस पेज को इस्तेमाल करने से पहले इसकी जानकारी पढ़ लें।</p>
+    <p class="notice">नोट: यह एक सामान्य वेबसाइट गोपनीयता सूचना है, कानूनी सलाह नहीं। होस्टिंग, analytics, cookies या अन्य सेवाएँ जोड़ने पर नीति को वास्तविक सेटअप के अनुसार अपडेट करना चाहिए।</p>
+  </section>
+
+  <section class="about legal-section" id="disclaimer">
+    <div class="section-kicker">Disclaimer · وضاحت</div>
+    <h2>Disclaimer</h2>
+    <p>इस वेबसाइट पर प्रकाशित शायरी और लेखक परिचय रचनात्मक अभिव्यक्ति तथा सामान्य जानकारी के उद्देश्य से प्रस्तुत किए गए हैं। रचनाओं को लेखक की अनुमति के बिना कॉपी, दोबारा प्रकाशित या अपने नाम से प्रस्तुत न करें।</p>
+    <p>शेयर किए गए विचार व्यक्तिगत रचनात्मक अभिव्यक्ति हैं; इन्हें किसी व्यक्ति, संस्था या पेशेवर सलाह का प्रतिनिधित्व न समझें। वेबसाइट की सामग्री का उपयोग अपने विवेक से करें।</p>
+    <p>इस वेबसाइट में दिए गए बाहरी लिंक संबंधित तीसरे पक्ष की वेबसाइटों तक ले जा सकते हैं। उन वेबसाइटों की सामग्री, उपलब्धता, सुरक्षा या गोपनीयता प्रथाओं की ज़िम्मेदारी उनकी अपनी है।</p>
+    <p class="notice">© Imran Yari · Original Poetry. सभी अधिकार सुरक्षित, जहाँ तक लागू कानून अनुमति देता है।</p>
+  </section>
+
+<footer>
+  <div class="signature">Imran Yari · इमरान यारी</div>\n  <div class="signature">अल्फ़ाज़ मेरे, एहसास मेरे।</div>\n  <p><a href="https://www.instagram.com/i_imran_533?xtok=MTFoYWo1cHA5Z21vdQ==" target="_blank" rel="noopener noreferrer">Instagram: @i_imran_533</a></p>
+  <div lang="ur" class="urdu-title" style="font-size:20px">الفاظ میرے، احساس میرے</div>
+  <p>एक निजी हिंदी–उर्दू शायरी संग्रह · Personal Hindi–Urdu Poetry Collection</p>
+</footer>
+<script>
+function copyPoem(id){
+ const el=document.getElementById(id);
+ const text=el.innerText;
+ if(navigator.clipboard && window.isSecureContext){
+   navigator.clipboard.writeText(text).then(()=>alert('Poem copied!')).catch(()=>fallbackCopy(text));
+ } else fallbackCopy(text);
+}
+function fallbackCopy(text){
+ const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();
+ try{document.execCommand('copy');alert('Poem copied!')}catch(e){alert('Copy unavailable on this browser.')}
+ t.remove();
+}
+</script>
+</body>
+</html>
